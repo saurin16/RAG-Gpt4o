@@ -68,6 +68,7 @@ qa_chain = RetrievalQA.from_chain_type(
 question = "Explain what is langsmith"
 result = qa_chain({"query": question })
 ```
+![OUTPUT on the web document given to the model](pic2.png)
 
 ## Result
 
