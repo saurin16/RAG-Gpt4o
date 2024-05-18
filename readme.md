@@ -14,6 +14,7 @@ This project showcases the following workflow:
 2. **Conversion to Vector Database**: Using `ObjectBox` from LangChain ObjectBox module to convert the loaded data into a vector database.
 
 3. **RAG Pipeline Creation**: Establishing a RAG (Retrieval-Augmented Generation) pipeline with LangChain's modules to facilitate question-answering tasks.
+   The web page used was on Nvidia by investing.com
 
 ## Setup
 
