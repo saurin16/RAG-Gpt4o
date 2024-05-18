@@ -66,7 +66,7 @@ qa_chain = RetrievalQA.from_chain_type(
         chain_type_kwargs={"prompt": prompt}
     )
 
-question = "Explain what is langsmith"
+question = "YOUR QUERY HERE"
 result = qa_chain({"query": question })
 ```
 ![OUTPUT on the web document given to the model](pic2.png)
@@ -74,3 +74,4 @@ result = qa_chain({"query": question })
 ## Result
 
 The project outputs answers to user queries using the RAG pipeline, combining retrieved context with generative capabilities of GPT-4o.
+Next thing will be making it bit more robust and UI with streamlit like previous chatbot and making it available for people.
