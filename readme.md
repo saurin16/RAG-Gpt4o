@@ -6,7 +6,6 @@ This project demonstrates the integration of LangSmith, an application developme
 ## Overview
 ![RAG IMPLEMENTATION](pic.png)
 
-
 This project showcases the following workflow:
 
 1. **Data Loading**: Utilizing the `WebBaseLoader` from LangChain Community to load data from an Investopedia article about Nvidia's revenue generation.
